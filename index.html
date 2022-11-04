@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <h1>Todo List App</h1>
+        <p>A simple todo app</p>
+        <p class="align-right">This todo app was written with vanilla HTML, CSS and JavaScript only</p>
+      </header>
+      <section id="inputSection" class="input">
+        <div class="inner-input">
+          <h1>Add Item</h1>
+          <label>item name: </label><br>
+          <input type="text" id="itemName" autocomplete="off"><br>
+          <label>item description: </label><br>
+          <input type="text" id="itemDescription" autocomplete="off"><br>
+          <div class="divider"></div>
+          <button type="button" id="buttonSubmit">Add the item</button>
+        </div>
+      </section>
+      <section id="todos">
+
+      </section>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
